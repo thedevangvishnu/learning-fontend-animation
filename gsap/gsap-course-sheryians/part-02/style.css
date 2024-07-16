@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #ddd;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+}
+
+.page1,
+.page2,
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page1 {
+  background-color: rgb(65, 48, 47);
+}
+
+.page2 {
+  background-color: rgb(101, 82, 81);
+}
+
+.page3 {
+  background-color: rgb(134, 114, 113);
+}
+
+.page2 {
+  justify-content: flex-start;
+}
+
+.page2 h1 {
+  font-size: 40vw;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
